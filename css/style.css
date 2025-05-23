@@ -1,0 +1,85 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-grande {
+  position: relative;
+  text-align: center;
+  background-color: rgba(61, 62, 65, 0.926);
+  height: 145px;
+  border-bottom: orangered solid 2px;
+  color: white;
+  padding-top: 10px;
+}
+
+.menu {
+  position: absolute;
+  width: 100vw;
+  background-color: orangered;
+  padding: 10px 0;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin: 0 15px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: background 0.3s;
+}
+
+.menu ul li a:hover {
+  background-color: #42b8d5;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container h3 {
+  font-size: 30px;
+  margin-right: 250px;
+}
+.box {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  word-spacing: 3px;
+  border: solid gray 1px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.box h5 {
+  color: orangered;
+  font-size: 22px;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: white;
+  text-align: center;
+  background-color: rgba(61, 62, 65, 0.926);
+  padding: 20px 0;
+  width: 100%;
+}
